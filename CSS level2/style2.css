@@ -1,0 +1,21 @@
+/* div{
+    background-color: lightgreen;
+    display: inline;
+}
+button{
+    
+    display: block;
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+}
+
+#box2{
+    display:none;    /*removes the element from the document flow */
+    visibility: hidden; /* hides the element but it still takes up space in the document flow */
+}

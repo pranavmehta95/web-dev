@@ -1,0 +1,45 @@
+/* h1{
+    color:red;
+}
+p{
+    color:tomato;
+}
+button{
+    background-color: blueviolet;
+    color:rgb(34,32,56);
+}
+body{
+    background-color:#f184f1;   
+} */
+
+/* For the coloring first we can use rgb and the second one is hex so we can use either rgb or if 
+we want to use in the short then we can use hex decimal */
+
+/* Use use color picker from with the help of google so that we do not need to remember the exact value of 
+rgb or hex decimal */
+
+/* And we can also use color pallet for the big projects for better visuals */
+
+* {
+    color:rgb(79, 56, 192);
+}
+
+h1{
+    color:violet;
+}
+button{
+    background-color: rgb(119, 214, 223);
+    color:brown;
+}
+
+#one{
+    color: blue;
+}
+
+.tenthB{
+    color: green;
+
+}
+.tenthB{
+    background-color: aqua;
+}

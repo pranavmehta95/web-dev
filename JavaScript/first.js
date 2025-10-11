@@ -11,7 +11,7 @@
 // console.log(fullname);
 // console.log(typeof age);
 // console.log(typeof x);
-pranav = "Isha singh";
+pranav = "Isha";
 console.log(pranav);
 
 

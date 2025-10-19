@@ -316,6 +316,10 @@
 // let a = "hello";
 // console.log(a.replace("h","H"));
 
-let str = "Pranav";
-str[1] = "R";
+// let str = "Pranav";
+// str[1] = "R";
+// console.log(str.charAt(1));
+
+
+let str = "Pranav kumar";
 console.log(str.charAt(1));

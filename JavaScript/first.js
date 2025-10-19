@@ -148,3 +148,44 @@
 
 
 
+// alert("hello");
+// prompt("Enter your name:");
+// let name = prompt ("Pranav kumar");
+// console.log(name);
+
+// //Practice question 1
+// let num = prompt("Enter a number");
+// if (num % 5 === 0) {
+//     console.log(num + " is multiple by 5");
+// }
+// else{
+//     console.log(num + " is not multiple by 5");
+// }
+
+
+
+//Practice question 2
+let score = prompt("Enter your score:");
+let grade;
+if(score >= 90 && score <= 100){
+    grade = "A";
+}
+else if(score >= 80 && score < 90){
+    grade = "B";
+}
+else if(score >= 70 && score < 80){
+    grade = "C";
+}
+else if(score >= 60 && score < 70){
+    grade = "D";
+}
+else if(score >= 0 && score < 60){
+    grade = "F";
+}
+else{
+    grade = "Invalid score";
+}
+console.log("The grade is:", grade);
+
+
+

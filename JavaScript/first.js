@@ -321,5 +321,24 @@
 // console.log(str.charAt(1));
 
 
-let str = "Pranav kumar";
-console.log(str.charAt(1));
+// let str = "Pranav kumar";
+// console.log(str.charAt(1));
+
+
+// let str = "Pranav Kumar";
+// console.log(str.replace("Kumar","Mehta"));
+
+
+//Qs1. Prompt the user to enter their full name. Generate a username for them based on the input.
+//Start username with @, followed by their full name and ending with the fullname length.
+
+// let fullname = prompt("Enter your full name without spaces");
+// let username = "@" + fullname + fullname.length;
+// console.log(username);
+
+
+//Array
+
+let marks = [34, 54, 36, 42, 67, 54, 42, 67];
+console.log(marks);
+console.log(marks.length);

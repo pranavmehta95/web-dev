@@ -16,6 +16,9 @@
 // console.log(headings);
 
 
+
+
+
 // let paras = document.getElementsByTagName("p");
 // // console.log(paras);
 // console.dir(paras);
@@ -36,6 +39,22 @@
 // // console.log(para.getAttribute("class"))
 // console.log(para.setAttribute("class","newclass"))
 
-let div = document.querySelector("div")
-div.style.backgroundColor = "green";
+// let div = document.querySelector("div")
+// div.style.backgroundColor = "green";
  
+
+// let btn1 = document.querySelector("#btn1");
+// btn1.onclick = () => {
+//     console.log("btn1 clicked");
+//     let a = 25;
+//     a++;
+//     console.log(a);
+// }
+
+let div = document.querySelector("div");
+div.onmouseover = () => {
+    console.log("mouse over div");
+}
+
+
+

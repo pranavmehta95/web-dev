@@ -18,7 +18,7 @@
 
 
 
-//Arithmetic Operators
+// Arithmetic Operators
 // let a = 10;
 // let b = 3;
 
@@ -30,7 +30,7 @@
 // console.log("a ** b =", a ** b); // Exponentiation
 
 
-//unitary operators
+// unitary operators
 // let c = 5;
 // console.log("Original value of c:", c);
 
@@ -38,7 +38,7 @@
 // console.log("After increment, c =", c);
 
 
-//assignmnet operators
+// assignmnet operators
 // let x = 10; // Assignment
 // console.log("Initial value of x:", x);
 
@@ -62,7 +62,7 @@
 
 
 
-//Comparison Operators
+// Comparison Operators
 // let p = 7;
 // let q = 10;
 
@@ -75,7 +75,7 @@
 // console.log("p >= q:", p >= q); // Greater than or equal to
 // console.log("p <= q:", p <= q); // Less than or equal to
 
-//Logical Operators
+// Logical Operators
 // let isSunny = true;
 // let isWarm = false;
 
@@ -85,7 +85,7 @@
 
 
 
-//conditional statements
+// conditional statements
 // let mode = "dark";
 // let color;
 
@@ -108,13 +108,13 @@
 // }
 
 
-//ternary operator
+// ternary operator
 // let score = 85;
 // let grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : "D";
 // console.log("Grade:", grade);
 
 
-//switch case
+// switch case
 // let day = 3;
 // let dayName;
 
@@ -164,7 +164,7 @@
 
 
 
-//Practice question 2
+// Practice question 2
 // let score = prompt("Enter your score:");
 // let grade;
 // if(score >= 90 && score <= 100){
@@ -238,7 +238,7 @@
 // console.log("Final size:", size);
 
 
-//for in loop
+// for in loop
 // let student = {
 //     name: "pranav kumar",
 //     age: 21,
@@ -273,7 +273,7 @@
 // console.log(str[5]);
 
 
-//template literals
+// template literals
 // let name = `This is the template literal.`;
 // console.log(name);
 // console.log(typeof name);
@@ -298,7 +298,7 @@
 // console.log(str);
 // console.log(str.trim());
 
-//Strings are immutable in js
+// Strings are immutable in js
 
 
 // let str = "Pranav Kumar";
@@ -329,8 +329,8 @@
 // console.log(str.replace("Kumar","Mehta"));
 
 
-//Qs1. Prompt the user to enter their full name. Generate a username for them based on the input.
-//Start username with @, followed by their full name and ending with the fullname length.
+// Qs1. Prompt the user to enter their full name. Generate a username for them based on the input.
+// Start username with @, followed by their full name and ending with the fullname length.
 
 // let fullname = prompt("Enter your full name without spaces");
 // let username = "@" + fullname + fullname.length;
@@ -356,13 +356,13 @@
 // superhero[2] = "Black Panther";
 // console.log(superhero);
 
-//for loop through array
+// for loop through array
 // let superhero = ["Ironman", "Spiderman", "Hulk", "Thor", "Captain America"];
 // for(let i=0;i<superhero.length;i++){
 //     console.log(superhero[i]);
 // }
 
-//for of loop
+// for of loop
 // let superhero = ["Ironman", "Spiderman", "Hulk", "Thor", "Captain America"];
 // for(let hero of superhero){
 //     console.log(hero);
@@ -504,14 +504,14 @@
 
 
 
-//for Each loop
+// for Each loop
 // let arr = [10, 20, 30, 40, 50];
 // arr.forEach(function printval(value, index){
 //     console.log(value);
 // });
 
 
-//Qs. For a given array of numbers, print the square of each value using the forEach loop.
+// Qs. For a given array of numbers, print the square of each value using the forEach loop.
 
 // let numbers = [1, 2, 3, 4, 5];
 // numbers.forEach(function printSquare(value){
@@ -533,7 +533,7 @@
 // });
 // console.log(evenNumbers);
 
-//reduce function
+// reduce function
 // let arr = [1, 2, 3, 4, 5];
 // let sum = arr.reduce(function accumulate(accumulator, currentValue){
 //     return accumulator + currentValue;
@@ -541,25 +541,25 @@
 // console.log(sum);
 
 
-//Qs. We are given array of marks of students. Filter our of the marks of students that scored 90+.
+// Qs. We are given array of marks of students. Filter our of the marks of students that scored 90+.
 // let marks = [85, 92, 78, 90, 88, 95, 67, 100];
 // let topScorers = marks.filter(function isTopScorer(value){
 //     return value >= 90;
 // });
 // console.log("Marks of students who scored 90+ :", topScorers);
 
-//Qs. Take a number n as input from user. Create an array of numbers from 1 to n. Use the reduce method to calculate sum of all numbers in the array. Use the reduce method to calculate product of all numbers in the array.
-let n = parseInt(prompt("Enter a number:"));
-let numbers = [];
-for(let i=1;i<=n;i++){
-    numbers.push(i);
-}
-let sum = numbers.reduce(function accumulate(accumulator, currentValue){
-    return accumulator + currentValue;
-}, 0);
-console.log("Sum of numbers from 1 to", n, "is:", sum);
+// Qs. Take a number n as input from user. Create an array of numbers from 1 to n. Use the reduce method to calculate sum of all numbers in the array. Use the reduce method to calculate product of all numbers in the array.
+// let n = parseInt(prompt("Enter a number:"));
+// let numbers = [];
+// for(let i=1;i<=n;i++){
+//     numbers.push(i);
+// }
+// let sum = numbers.reduce(function accumulate(accumulator, currentValue){
+//     return accumulator + currentValue;
+// }, 0);
+// console.log("Sum of numbers from 1 to", n, "is:", sum);
 
-let product = numbers.reduce(function accumulateProduct(accumulator, currentValue){
-    return accumulator * currentValue;
-}, 1);
-console.log("Product of numbers from 1 to", n, "is:", product);
+// let product = numbers.reduce(function accumulateProduct(accumulator, currentValue){
+//     return accumulator * currentValue;
+// }, 1);
+// console.log("Product of numbers from 1 to", n, "is:", product);

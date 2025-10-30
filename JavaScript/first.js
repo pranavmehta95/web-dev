@@ -165,27 +165,74 @@
 
 
 //Practice question 2
-let score = prompt("Enter your score:");
-let grade;
-if(score >= 90 && score <= 100){
-    grade = "A";
-}
-else if(score >= 80 && score < 90){
-    grade = "B";
-}
-else if(score >= 70 && score < 80){
-    grade = "C";
-}
-else if(score >= 60 && score < 70){
-    grade = "D";
-}
-else if(score >= 0 && score < 60){
-    grade = "F";
-}
-else{
-    grade = "Invalid score";
-}
-console.log("The grade is:", grade);
+// let score = prompt("Enter your score:");
+// let grade;
+// if(score >= 90 && score <= 100){
+//     grade = "A";
+// }
+// else if(score >= 80 && score < 90){
+//     grade = "B";
+// }
+// else if(score >= 70 && score < 80){
+//     grade = "C";
+// }
+// else if(score >= 60 && score < 70){
+//     grade = "D";
+// }
+// else if(score >= 0 && score < 60){
+//     grade = "F";
+// }
+// else{
+//     grade = "Invalid score";
+// }
+// console.log("The grade is:", grade);
+
+
+// console.log("pranav kumar")
+// for(let i=1;i<5;i++){
+//     console.log("Hello World");
+// }
+
+
+// let sum = 0;
+// for(let i=1;i<=5;i++){
+//     sum = sum+i;
+//     console.log("The sum is:", sum);
+// }
 
 
 
+// for(var i=1;i<5;i++){
+//     console.log("i", i);
+// }
+// console.log("Final i:", i);
+
+
+
+// let i = 1;
+// while(i<=5){
+//     console.log("Hello World");
+//     i++;
+// }
+
+
+
+// let i = 1;
+// do{
+//     console.log("Hello World");
+//     i++;
+// }
+// while(i<=5);
+
+
+// let str = "pranavkumarmehta";
+// for(let i of str){
+//     console.log("i=",i);
+// }
+
+let str = "pranavkumarmehta";
+for(let char of str){
+    console.log("char", char);
+    size++;
+}
+console.log("Final size:", size);

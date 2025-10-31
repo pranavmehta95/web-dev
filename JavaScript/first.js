@@ -230,9 +230,40 @@
 //     console.log("i=",i);
 // }
 
-let str = "pranavkumarmehta";
-for(let char of str){
-    console.log("char", char);
-    size++;
-}
-console.log("Final size:", size);
+// let str = "pranavkumarmehta";
+// for(let char of str){
+//     console.log("char", char);
+//     size++;
+// }
+// console.log("Final size:", size);
+
+
+//for in loop
+// let student = {
+//     name: "pranav kumar",
+//     age: 21,
+//     course: "B.Tech",
+// };
+// for(let key in student){
+//     console.log("key = ", key, "value= ",student[key]);
+// }
+
+
+
+// for(let i=2;i<=100;i+=2){
+//     console.log(i)
+// };
+
+
+
+// let gamenum = 25;
+// let usernum = prompt("Guess a number between 1 to 100");
+// console.log(usernum);
+// while(usernum != gamenum){
+//     usernum = prompt("Wrong guess! Try again:");
+
+// }
+// console.log("You guessed the correct number!");
+
+
+

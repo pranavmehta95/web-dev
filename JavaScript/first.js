@@ -267,3 +267,55 @@
 
 
 
+// let str = "pranav kumar";
+// let str2 = 'Isha Singh';
+// console.log(str,str.length);
+// console.log(str[5]);
+
+
+//template literals
+// let name = `This is the template literal.`;
+// console.log(name);
+// console.log(typeof name);
+
+
+// let object = {
+//     item:  "Antthing",
+//     price: 1000,
+// };
+// console.log("The cost of the object is: ",object.price, "And the name of the item is: ",object.item);
+// let output = `The cost of the object is: ${object.price} And the name of the item is: ${object.item}`;
+// console.log(output);
+
+
+// console.log("Pranav \n \t Kumar");
+
+// let str = "    pranav kumar";
+// console.log(str);
+// str = str.toUpperCase();
+// console.log(str);
+// str = str.toLowerCase();
+// console.log(str);
+// console.log(str.trim());
+
+//Strings are immutable in js
+
+
+// let str = "Pranav Kumar";
+// console.log(str.slice(4));
+
+
+// let str1 = "pranav kumar";
+// let str2 = "Mehta";
+// let name = str1 + " " + str2;
+// console.log(name);
+// let fullName = str1.concat(" ",str2);
+// console.log(fullName);
+
+
+// let a = "hello";
+// console.log(a.replace("h","H"));
+
+let str = "Pranav";
+str[1] = "R";
+console.log(str.charAt(1));

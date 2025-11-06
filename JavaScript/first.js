@@ -337,7 +337,7 @@
 // console.log(username);
 
 
-//Array
+// Array and array list
 
 let marks = [34, 54, 36, 42, 67, 54, 42, 67];
 console.log(marks);

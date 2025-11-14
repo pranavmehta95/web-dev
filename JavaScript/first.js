@@ -345,6 +345,85 @@
 
 
 
-let marks = [34, 54, 36, 42, 67, 54, 42, 67];
-console.log(marks);
-console.log(marks.length);
+// let marks = [34, 54, 36, 42, 67, 54, 42, 67];
+// console.log(marks);
+// console.log(marks.length);
+
+// let superhero = ["Ironman", "Spiderman", "Hulk", "Thor", "Captain America"];
+// console.log(superhero);
+// console.log(superhero.length);
+// console.log(superhero[3]);
+// superhero[2] = "Black Panther";
+// console.log(superhero);
+
+//for loop through array
+// let superhero = ["Ironman", "Spiderman", "Hulk", "Thor", "Captain America"];
+// for(let i=0;i<superhero.length;i++){
+//     console.log(superhero[i]);
+// }
+
+//for of loop
+// let superhero = ["Ironman", "Spiderman", "Hulk", "Thor", "Captain America"];
+// for(let hero of superhero){
+//     console.log(hero);
+// }
+
+
+// let cities = ["Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata"];
+// for(let city of cities){
+//     console.log(city.toUpperCase());
+// }
+
+
+// let marks = [34, 54, 36, 42, 67, 54, 42, 67];
+// let sum = 0;
+// for(let mark of marks){
+//     sum = sum + mark;
+// }
+// console.log("The total sum is:", sum);
+
+// let avg = sum / marks.length;
+// console.log("The average is:", avg);
+
+
+
+
+// let items = [250, 400, 150, 800, 1200];
+// // let idx = 0;
+// // for(let price of items){
+// //     // console.log(`value at index ${idx}, =  {price}`);
+// //     let offeredPrice = price - (price * 10) / 100;
+// //     console.log(`Offered price ${offeredPrice}`);
+// //     idx++;
+// // }
+
+// for(let i=0;i<items.length;i++){
+//     let price = items[i];
+//     let offeredPrice = price - (price * 10) / 100;
+//     console.log(`Offered price ${offeredPrice}`);
+// }
+
+
+
+// let veggies = ["Tomato", "Potato", "Cabbage", "Onion", "Carrot"];
+// veggies.push("Spinach");
+// console.log(veggies);
+
+// let marval_heroes = ["Ironman", "Spiderman", "Hulk", "Thor", "Captain America"];
+// // let dc_heroes = ["Superman", "Batman"];
+// // marval_heroes = marval_heroes.concat(dc_heroes);
+// // console.log(marval_heroes);
+
+// marval_heroes.unshift("Black Panther");
+// console.log(marval_heroes);
+// marval_heroes.shift();
+// console.log(marval_heroes);
+
+
+
+let arr = [10, 20, 30, 40, 50];
+arr.splice(2, 0, 25);
+console.log(arr);
+
+arr.splice(4, 1);
+console.log(arr);

@@ -421,9 +421,145 @@
 
 
 
-let arr = [10, 20, 30, 40, 50];
-arr.splice(2, 0, 25);
-console.log(arr);
+// let arr = [10, 20, 30, 40, 50];
+// arr.splice(2, 0, 25);
+// console.log(arr);
 
-arr.splice(4, 1);
-console.log(arr);
+// arr.splice(4, 1);
+// console.log(arr);
+
+
+// function myfunction(){
+//     console.log("Hello World");
+
+// }
+// myfunction();
+
+// function myFunnction(msg){
+//     // parameter
+//     console.log(msg);
+// }
+// myFunnction("Hello Pranav");  // argument
+
+// function sum(a, b ){
+//     console.log(a + b);
+// }
+// sum(3,4);
+
+// function sum(x, y){
+//     s = x + y;
+//     return s;
+// }
+// sum(1,2);
+// let result = sum(5,7);
+// console.log("The sum is:", result);
+
+
+
+// const arrowSum = (a,b) => { // arrow function which is introduced in in modern js
+//     return a + b;
+// }
+
+// const arrowMul = (a,b) => {
+//     return a * b;
+// }
+
+
+// Qs. Create a function using the "function" keyword that takes a String as an argument &
+// returns the number of vowels in the string.
+// "20l,
+
+
+// function countVowels(str){
+//     let count = 0;
+//     let vowels = "aeiouAEIOU";
+//     for(let char of str){
+//         if(vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// let string = prompt("Enter a string:");
+// let vowelCount = countVowels(string);
+// console.log("Number of vowels in the string:", vowelCount);
+
+
+// perform same task using arrow function
+// const countVowelsArrow = (str) => {
+//     let count = 0;
+//     let vowels = "aeiouAEIOU";
+//     for(let char of str){
+//         if(vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// let string2 = prompt("Enter a string:");
+// let vowelCount2 = countVowelsArrow(string2);
+// console.log("Number of vowels in the string using arrow function:", vowelCount2);
+
+
+
+//for Each loop
+// let arr = [10, 20, 30, 40, 50];
+// arr.forEach(function printval(value, index){
+//     console.log(value);
+// });
+
+
+//Qs. For a given array of numbers, print the square of each value using the forEach loop.
+
+// let numbers = [1, 2, 3, 4, 5];
+// numbers.forEach(function printSquare(value){
+//     console.log(value * value);
+// });
+
+
+// Map function
+// let arr = [1, 2, 3, 4, 5];
+// let squaredArr = arr.map(function square(value){
+//     return value * value;
+// });
+// console.log(squaredArr);
+
+// filter function
+// let arr = [10, 15, 20, 25, 30, 35, 40];
+// let evenNumbers = arr.filter(function isEven(value){
+//     return value % 2 === 0;
+// });
+// console.log(evenNumbers);
+
+//reduce function
+// let arr = [1, 2, 3, 4, 5];
+// let sum = arr.reduce(function accumulate(accumulator, currentValue){
+//     return accumulator + currentValue;
+// }, 0);
+// console.log(sum);
+
+
+//Qs. We are given array of marks of students. Filter our of the marks of students that scored 90+.
+// let marks = [85, 92, 78, 90, 88, 95, 67, 100];
+// let topScorers = marks.filter(function isTopScorer(value){
+//     return value >= 90;
+// });
+// console.log("Marks of students who scored 90+ :", topScorers);
+
+//Qs. Take a number n as input from user. Create an array of numbers from 1 to n. Use the reduce method to calculate sum of all numbers in the array. Use the reduce method to calculate product of all numbers in the array.
+let n = parseInt(prompt("Enter a number:"));
+let numbers = [];
+for(let i=1;i<=n;i++){
+    numbers.push(i);
+}
+let sum = numbers.reduce(function accumulate(accumulator, currentValue){
+    return accumulator + currentValue;
+}, 0);
+console.log("Sum of numbers from 1 to", n, "is:", sum);
+
+let product = numbers.reduce(function accumulateProduct(accumulator, currentValue){
+    return accumulator * currentValue;
+}, 1);
+console.log("Product of numbers from 1 to", n, "is:", product);

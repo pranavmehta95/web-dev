@@ -1,0 +1,13 @@
+.heading{
+    color: blue;
+}
+
+body{
+    background-color: lightpink;
+}
+button{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}

@@ -29,5 +29,12 @@
 
 // console.dir(document.body.firstChild);
 
-let div = document.querySelector("div");
-console.dir(div);
+// let div = document.querySelector("div");
+// console.dir(div);
+
+// let para = document.querySelector("p")
+// // console.log(para.getAttribute("class"))
+// console.log(para.setAttribute("class","newclass"))
+
+let div = document.querySelector("div")
+div.style.backgroundColor = "green";
